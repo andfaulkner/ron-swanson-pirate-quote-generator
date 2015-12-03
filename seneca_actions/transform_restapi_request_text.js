@@ -47,7 +47,7 @@ _.mixin({
 */
 module.exports = function transform_restapi_request_text_SenecaPlugin(options) {
 
-	//Available routes
+	//Available Seneca patterns
 	this.add({role: pluginName, cmd: 'escape_ron_quote'}, escapeRonQuote_cb);
 
 	/***
