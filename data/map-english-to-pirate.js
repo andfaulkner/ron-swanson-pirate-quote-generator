@@ -1,6 +1,6 @@
 
 // Pirate equivalents of english words
-// Used for converting certain words to
+// Used for converting certain regular words to pirate
 var mapEnglishToPirate = {
 	'car': 'ship',
 	'bus': 'galleon',
