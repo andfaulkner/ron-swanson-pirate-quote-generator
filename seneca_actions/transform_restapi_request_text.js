@@ -16,11 +16,12 @@ var _ = require('lodash');
 // Augment local lodash - for usage in chaining
 _.mixin({
 	/***
-	* Adds ability to replace all pirate words to local instance of lodash,
-	* for inclusion in chains
+	* Adds ability to replace words with pirate equivalents to local (i.e. this module only)
+	* instance of lodash, for inclusion in chains
 	*
-	* @param str {String} text to replace pirate words in
-	* @return {[type]}
+	* @param str {String} text to process - will have regular words replaced with 
+	* 		equivalent pirate words
+	* @return {String} text with all words replaced with pirate equivalents
 	*/
 	_replacePirateWords: function _replacePirateWords(str){
 		return _.reduce(mapEnglishToPirate, function(translationTextChain, val, key){
