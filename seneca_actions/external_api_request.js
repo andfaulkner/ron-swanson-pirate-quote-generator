@@ -1,6 +1,7 @@
 /***************************************************************************************************
 *
-*			Makes requests to external REST APIs and returns the results
+*			Makes requests to various specific external REST APIs (hardcoded locations)
+* 			and returns the results
 *
 */
 
